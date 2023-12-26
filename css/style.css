@@ -22,6 +22,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 70%;
+    margin: auto;
 }
 
 .nav-bar .links li{
@@ -33,4 +35,27 @@ body{
     color: #305439;
     font-size: 25px;
     margin: 0 20px;
+}
+
+.container-main{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    min-height: 80vh;
+    background-color: #305439;
+    padding: 20px;
+    border-radius: 1%;
+}
+
+.container-main img{
+    height: 700px;
+    border-radius: 2%;
+}
+
+.main{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 900;
+    margin-left: 20px;
 }
