@@ -22,14 +22,15 @@ body {
 }
 
 .nav-bar {
-  width: 70%;
   margin: 20px auto;
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
-  background-color: #ffffff;
+  background-color: #305439;
+  border-radius: 10%;
+  border: #fff solid 2px;
 }
 
 .nav-bar .links li {
@@ -38,7 +39,7 @@ body {
 
 .nav-bar .links a {
   text-decoration: none;
-  color: #305439;
+  color: #fff;
   font-size: 25px;
   margin: 0 20px;
   font-weight: 900;
@@ -82,4 +83,33 @@ body {
 #menu img {
   height: 1000px;
   border-radius: 2%;
+}
+
+
+#about{
+  display: flex;
+  background-color: #305439;
+  width: 70%;
+  margin: 20px auto;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 90vh;
+  padding: 20px;
+  border-radius: 1%;
+}
+
+#about img {
+  height: 1000px;
+  border-radius: 2%;
+}
+
+.about {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.about-info{
+  text-align: center;
 }
