@@ -113,3 +113,19 @@ body {
 .about-info{
   text-align: center;
 }
+
+.instagram{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram h2{
+  font-size: 35px;
+  color: #fff;
+}
+
+.phone p{
+  font-size: 35px;
+  color: #fff;
+}
