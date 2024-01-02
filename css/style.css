@@ -81,7 +81,7 @@ body {
 }
 
 #menu img {
-  height: 1000px;
+  height: 500px;
   border-radius: 2%;
 }
 
@@ -98,12 +98,12 @@ body {
 }
 
 #about img {
-  height: 1000px;
+  height: 700px;
   border-radius: 2%;
 }
 
 .about {
-  font-size: 35px;
+  font-size: 30px;
   color: #fff;
   font-weight: 900;
   margin-left: 20px;
