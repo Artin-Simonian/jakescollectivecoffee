@@ -130,7 +130,7 @@ body {
   color: #fff;
 }
 
-@media only screen and (max-device-width: 414px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 413px) {
   .nav-bar {
     margin: 20px auto;
     position: fixed;
@@ -160,13 +160,13 @@ body {
   }
 
   #container-main img {
-    height: 300px;
+    height: 400px;
     border-radius: 2%;
     margin-top: 50px;
   }
 
   .main {
-    font-size: 25px;
+    font-size: 10px;
     color: #fff;
     font-weight: 900;
     margin-left: 0;
@@ -233,7 +233,7 @@ body {
   }
 }
 
-@media only screen and (max-device-width: 450px) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 479px) {
   .nav-bar {
     margin: 20px auto;
     position: fixed;
@@ -338,7 +338,7 @@ body {
 
 
 
-@media only screen and (max-device-width: 770px) {
+@media only screen and (min-device-width: 480px) and (max-device-width: 769px) {
   .nav-bar {
     margin: 20px auto;
     position: fixed;
@@ -442,7 +442,7 @@ body {
 }
 
 
-@media only screen and (max-device-width: 850px) {
+@media only screen and (min-device-width: 1030px) {
   .nav-bar {
     margin: 20px auto;
     position: fixed;
@@ -545,7 +545,7 @@ body {
   }
 }
 
-@media only screen and (max-device-width: 1030px) {
+@media only screen and (min-device-width: 1030px) {
   .nav-bar {
     margin: 20px auto;
     position: fixed;
